@@ -8,7 +8,7 @@ import mongoose from 'mongoose';
 const app = express();
 
 //Mongoose Setup
-mongoose.connect('mongodb://willies:@ds251179.mlab.com:51179/roamkenya');
+mongoose.connect('mongodb://willies:animelistpassword1@ds251179.mlab.com:51179/roamkenya');
 const db = mongoose.connection;
 
 //Checking for DB connection 
