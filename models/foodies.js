@@ -120,7 +120,7 @@ const foodieSchema = new Schema({
       required: true
     }
   }
-}, {collection: 'foddie', timestamps: true});
+}, {collection: 'foodie', timestamps: true});
 
 export default mongoose.model('foodie', foodieSchema);
 
