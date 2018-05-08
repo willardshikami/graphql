@@ -32,7 +32,7 @@ class BookDetails extends Component {
 
   render() {
     return (
-      <div id="book-detail">
+      <div id="book-details">
         <p>Book Detail Output</p>
         {this.displayBookDetails()}
       </div>
