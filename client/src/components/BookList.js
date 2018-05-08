@@ -17,7 +17,7 @@ class BookList extends Component {
     return (
       <div>
         <ul id="book-list">
-          { this.displayBooks() }
+          { this.displayBooks(this.props) }
         </ul>
       </div>
     );
